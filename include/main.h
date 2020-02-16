@@ -4,7 +4,10 @@
 /* ----- */
 
 /* Libraries */
+// System
 #include <Arduino.h>
+#include <ArduinoSTL.h>
+#include <map>
 // Interfaces
 #include <Wire.h>
 // ESP8266
