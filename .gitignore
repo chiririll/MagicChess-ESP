@@ -34,3 +34,7 @@
 # PlatformIO
 .pio
 .clang_complete
+
+# Clion
+.idea/
+cmake-build-debug/
