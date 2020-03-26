@@ -14,9 +14,16 @@ void Setup()
     if (!connect()) {
         // TODO: create AP
     }
+
+    // TODO: Start server
+    // TODO: Check for updates
 }
 
-void Loop() {}
+void Loop() {
+    // TODO: Listen server
+    // TODO: Listen I2C
+    // TODO: Update steps queue
+}
 
 // Read password from memory and connect to wifi hotspot
 bool connect() {
@@ -26,6 +33,7 @@ bool connect() {
     WiFi.mode(WIFI_STA);
     WiFi.disconnect();
 
+    // TODO: save scanned networks
     int n = WiFi.scanNetworks();
     if (n == 0) {
         debug::log("Networks not found!", 'w');
